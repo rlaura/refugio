@@ -1,0 +1,743 @@
+html {
+	scroll-behavior: smooth;
+ }
+
+body {
+	margin: 0;
+	background-color: #f7caf5;
+
+}
+
+header {
+	width: 100%;
+	height: auto;
+}
+
+
+h1 {
+	margin-top: 0;
+	font-size: 35px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h2 {
+	text-align: center;
+	font-size: 33px;
+	color: #E8DDB5;
+}
+
+
+#sub_texto {
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+
+}
+
+#barra_principal {
+	width: 960px;
+	height: 100px;
+	background-color: #35aabb;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo {
+	width: 960px;
+	height: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 60px;
+	}
+
+#menu {	
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #770e73;
+}
+
+.imgprincipal
+{
+	margin: 0;
+	height: 330px;
+	width: 960px;
+}
+
+#dona, #contacto, #adopta, #home, #nosotros {
+	width: 960px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background: #35aabb;
+	padding-bottom: 100px;
+}
+
+#adopta, #nosotros { 
+	background-color: #39bbce;
+	padding-top: 10px;
+
+}
+#contacto, #dona {
+	
+	padding-top: 20px;
+}
+
+#dona h3 { 
+	color: #253188;
+	font-size: 25px;
+ 	margin-left: 25%;
+ }
+
+
+#dona p {
+	color: #FFFFFF;
+	margin: 15px;
+}
+
+p {
+	margin-left: 25px;
+	color: #FFFFFF;
+
+}
+#adopta h3 {
+	font-size: 20px;
+	color: #EDAFB8;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#adopta ul li {
+	color: #FFFFFF;
+}
+
+#adopta ul {
+	padding-left: 55px;
+}
+
+#fpagos {
+	width: 805px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#menuPagos {
+	display: inline-block;
+	background: #000000;
+	height: 250px;
+	float: left;
+}
+
+.pago {
+	width: 200px;
+	height: 250px;
+	margin: 0;
+	display: inline-block;
+	border-color: #000000;
+	border-style: solid;
+	background: #247682;
+}
+
+.pago p {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 45px;
+}
+
+.pago .p1 {
+	padding-left: 0;
+}
+.papa {
+	display:  inline-grid;
+
+}
+
+.nos {
+	padding: 15px;
+}
+
+.nos1 {
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	width: 500px;
+
+}
+
+.nos1 p {
+	font-size: 25px;
+}
+#fnos {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+.nos2 {
+	width: 400px;
+	background: #247682;
+	display: inline-block;
+
+}
+
+.nos2 p {
+	padding: 10px;
+	
+}
+
+#fotos{
+	margin-top: 45px;
+
+}
+
+input, textarea {
+	width: 450px;
+	margin-bottom: 5px: 
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] {
+    display:inline-block;
+    width:15px;
+    height:15px;
+
+    vertical-align:middle;
+ }
+
+ .grupo {
+ 	padding: 5px;
+ }
+
+#formulario {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	background: white;
+
+	border-radius: 6px;
+	border: 1px solid #000000;
+}
+
+#formulario p {
+	color: #000000;
+}
+
+#main {
+	width: 960px;
+	height: 260px;
+	background-color: #8d93ef;
+	margin-bottom: 5px;
+}
+
+.imgh {
+display: none;
+}
+#secciones {
+	width: 600px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;	
+	
+}
+
+.sec p {	
+	color: 000000;
+	text-align: center;
+}
+
+.sec {
+	width: 180px;
+	height: 180;
+	margin: 10px;	
+	padding-top:  45px;
+	float: left;
+}
+
+.imagen {
+	width: 180px;
+	height: 130px;
+	background-color: #a0c011;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.imagenc {
+	width: 180px;
+	height: 130px;
+}
+
+#desplegable {
+	margin-left: 15px;
+}
+
+summary {
+	background: #35aabb;
+	cursor: pointer;
+
+}
+
+details ul li {
+	display: inline;
+
+}
+
+details {
+
+  border: 1px solid #CC0;
+  padding: 5px;
+  font-family: Arial;
+  margin-bottom:5px;
+  width:500px;
+  background-color: #35aabb;
+}
+
+.icono {
+	width: 50px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+
+
+nav ul li a:hover {
+	color: black;
+	background-color: #999999;
+}
+
+nav ul li a {
+	display: inline-block;
+	width: 120px;
+	height: 45px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul {
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	list-style-type: none;
+}
+
+
+
+.up {
+	font-size: 25px;
+	float: right;
+	padding-top: 5px;
+	margin-right: 15px;
+}
+
+footer { 
+	width: 960px;
+	height: 90px;
+	background-color: #770e73;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.caja_footer{
+    width: 100%;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.caja_footer p {
+	margin: 5px;
+	color:#908F8F;
+	font-size:14px;
+}
+
+.caja_footer h3 {
+	color: #FFFFFF;
+	margin: 0;
+	font-size: 15px;
+	
+}
+
+.redes_sociales {
+    width: 250px;
+    margin: 0 10%;
+    float: left;
+}
+
+
+.info {
+    width: 300px;
+    float:left;
+
+}
+
+
+.info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.fcontacto {
+	float: right;
+	width: 20%;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+nav ul {
+	width: 580px;
+}
+#dona, #contacto, #adopta, #nosotros {
+	padding-top: 5px;
+}
+nav ul li a {
+	width: 100px;
+	margin-bottom: 5px;
+	line-height: 30px;
+}
+
+h2 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+
+#sub_texto {
+	font-size: 25px;
+}
+
+#barra_principal {
+	width: 580px;
+}
+
+#logo {
+	width: 580px;
+	}
+
+#secciones {
+	display: none;
+}
+
+#menu {
+	width: 580px;
+	margin: 0;
+}
+
+#main {
+	width: 500px;
+}
+
+.imgprincipal
+{
+	width: 580px;
+
+}
+
+.nos2 {
+	margin-left: 15%;
+}
+#dona, #contacto, #adopta, #home, #nosotros {
+	width: 580px;
+}
+
+
+#fpagos {
+	width: 580px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.pago {
+	width: 130px;
+	height: 60px;}
+
+.nos1 {
+	display: none;
+}
+
+.pago p {
+font-size: 12px;
+padding-left: 25px;
+
+}
+
+.pago .p1 {
+	display: none;
+}
+
+
+.sec {
+	display: none;
+}
+
+footer { 
+	width: 580px;
+}
+
+.caja_footer p {
+	font-size:12px;
+}
+
+.redes_sociales {
+    width: 130px;
+    margin: 0 10%;
+    float: left;
+}
+.icono {
+	width: 30px;
+	height: 30px;
+}
+
+.info {
+    width: 165px;
+    float:left;
+}
+
+
+.info h3 {
+    font-size: 13px;
+}
+
+.fcontacto {
+	float: left;
+}
+
+	} /* fin media */
+
+
+@media all and (max-width: 599px) {
+
+.imgprincipal
+{
+display: none;
+}
+
+#barra_principal {
+	width: 90%;
+	height: auto;
+	float: none;
+}
+
+#logo {
+	width: 90%;
+	height: auto;
+	float: none;
+	}
+
+h2 {
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+#menu {
+	width: 100%;
+	height: auto;
+}
+
+#home, #dona, #contacto, #adopta, #nosotros {
+	width: 90%;
+	height: auto;
+	padding-top: 5px;
+}
+
+#main {
+	width: 90%;
+	height: auto;
+}
+
+#secciones {
+	width: 90%;
+	height: auto;	
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.sec {
+	width: 100%;
+	height: 100%;
+	float: none;
+}
+
+#fpagos {
+	width: 90%;
+}
+
+.pago {
+	margin:1%;
+	padding: 0;	
+}
+
+.pago p {
+	padding: 0;
+	margin: 0;
+}
+
+.nos {
+	padding: 0px;
+}
+
+.nos1 {
+	width: 100%;
+
+}
+
+#fnos {
+	margin: 0;
+	width: 100%;
+}
+
+.up {
+	display: none;
+}
+.nos2 {
+	width: 100%;
+	margin: 0;
+	background: #247682;
+	display: block;
+
+}
+
+.nos2 p {
+	padding: 5px;
+	
+}
+
+.pago p {
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.p1 {
+	display: none;
+}
+
+#fotos{
+	width: 90%;
+}
+
+.imgh1 {
+	display: none;
+}
+
+input, textarea {
+	width: 90%;
+	margin-bottom: 5px: 
+}
+
+#formulario {
+	width: 80%;
+}
+
+.imgh {
+display: none;
+}
+
+.sec {
+	display: block;
+	width: 90%
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.sec .imagen {
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.sec .txt {
+	margin-top: 2%;
+}
+#desplegable {
+	margin-left: 5px;
+}
+
+details {
+  width:90%;
+}
+
+.icono {
+	float: none;
+}
+
+
+nav ul li a {
+	width: 100%;
+	height: auto;
+}
+
+nav ul li {
+	display: block;
+}
+
+nav ul {
+	width: 90%;
+	margin: 0;
+}
+
+footer { 
+	width: 90%;
+	height: auto;
+	margin-top: 0;
+}
+
+.caja_footer{
+    width: 100%;
+	height: auto;
+    margin-left: 2%;
+
+}
+
+.redes_sociales {
+    width: 100%;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: none;
+}
+
+.info {
+    width: 75%;
+    height: auto;
+    float:none;
+    margin: 0;
+
+}
+
+.fcontacto {
+	width: 75%;
+	height: auto;
+	float: none;
+	padding-bottom: 5px;
+}
+
+#fotos {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
